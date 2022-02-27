@@ -1,0 +1,72 @@
+package com.company.Oops;
+import java.util.*;
+
+public class FEB22 {
+
+    class Dog {
+        //1. Edit this code so the class Beagle is a subclass of the Dog class. When you run the code it should print “woof!” and then “arf arf”
+        public void speak() {
+            System.out.println("woof!");
+        }
+        public void main(String[] args) {
+            Dog d = new Dog();
+            d.speak();
+            Dog b = new Beagle();
+            b.speak();
+        }
+    }
+    class Beagle extends Dog {
+        public void speak() {
+            System.out.println("arf arf");
+        }
+    }
+}
+
+     class Dog1 {
+         //Add an equals method to this class that returns true if the current Dog and passed Dog have the same name. The code should print false twice then true twice.
+         private String name;
+
+         public Dog1(String name) {
+             this.name = name;
+         }
+         public boolean equals(Object other) {
+             Dog1 d1 = (Dog1) other;
+             return this.name.equals(d1.name);
+         }
+     }
+        
+         abstract class Book {
+    //You have to create another class that extends the abstract class. Then you can create an instance of the new class.
+             String title;
+             abstract void setTitle(String s);
+             String getTitle() {
+                 return title;
+             }
+         }
+         class MyBook extends Book {
+             void setTitle(String s) {
+                 title = s;
+             }
+
+        public static void main(String[] args) {
+
+            System.out.println("woof!");
+            System.out.println("arf arf");
+
+            Dog1 d1 = new Dog1("Rufus");
+            Dog1 d2 = new Dog1("Sally");
+            Dog1 d3 = new Dog1("Rufus");
+            Dog1 d4 = d3;
+            System.out.println(d1.equals(d2));
+            System.out.println(d2.equals(d3));
+            System.out.println(d1.equals(d3));
+            System.out.println(d3.equals(d4));
+
+            Scanner sc=new Scanner(System.in);
+            String title=sc.nextLine();
+            MyBook new_novel = new MyBook();
+            new_novel.setTitle(title);
+            System.out.println("The title is: "+new_novel.getTitle());
+        }
+
+    }
