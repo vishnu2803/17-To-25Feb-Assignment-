@@ -1,0 +1,31 @@
+package com.company.Oops;
+
+public class FEB25 {
+    
+    /*    //Q1 - What is the output of the following application?
+          ans - Driving electric car
+                
+        //Q2 - Look at the following code and choose the right option for the word :
+        ans - public and protected both can be used.
+        
+        // Q3 - What will be the output of the following program?
+        ans - Base Derived DeriDerived
+                
+        //Q4 - Consider the following program:
+        ans - b) Removing Stmt-1 will make the program compilable and it will print the following:
+               Base: Hello Derived.
+
+               c) Removing Stmt-2 will make the program compilable and it will print the following:
+               Base Derived.
+
+               d) Removing both Stmt-1 and Stmt-2 will make the program compilable and it will print
+              the following: Base Derived.
+        // Q5 - What is the output of the following application?
+        ans - 13245
+
+        //  Q6 - What is the output of the following application?
+        ans - 2
+                
+        // Q7 - Consider the following program and predict the output:
+        ans - int*/
+    }
